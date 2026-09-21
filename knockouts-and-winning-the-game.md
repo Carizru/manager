@@ -46,4 +46,38 @@ La fase de Empuje sigue siempre estos tres pasos, **en este orden**:
 
 ***
 
+## 3. Consecuencias de un Knockout
+
+Cuando tu Leyenda es noqueada ocurre **una** de estas dos cosas:
+
+### 3.1. Tu equipo conserva al menos 1 Stock
+
+1. Retira **un Stock** de la reserva de tu equipo.
+2. Coloca tu peana (*standee*) en la casilla donde está el **Portal** de tu equipo.
+3. Elige **libremente** la dirección hacia la que mira tu Leyenda.
+
+> La Leyenda **conserva su Fatiga acumulada**: volver a la Arena no reinicia el marcador de Fatiga.
+
+### 3.2. Tu equipo no tiene Stocks
+
+El equipo contrario **gana la partida inmediatamente**. No se resuelve el resto de la ronda ni de la secuencia.
+
+***
+
+## 4. Stocks y condición de victoria
+
+Los Stocks son las «vidas» compartidas del equipo. Su cantidad inicial depende del formato de la partida:
+
+| Formato | Stocks por equipo | KO necesarios para ganar |
+| ------- | ----------------- | ------------------------ |
+| **1v1** | 1                 | 2                        |
+| **2v2** | 2                 | 3                        |
+| **3v3** | 3                 | 4                        |
+
+> **Cómo leer la tabla:** los Stocks absorben los primeros KO. El KO que gana la partida es el que se produce cuando el rival ya está a 0 Stocks; de ahí que hagan falta *Stocks + 1* KO.
+
+**Condición de victoria:** gana el equipo que provoque un KO a un rival que ya no tenga Stocks en su reserva.
+
+***
+
 ***
