@@ -80,4 +80,46 @@ Los Stocks son las «vidas» compartidas del equipo. Su cantidad inicial depende
 
 ***
 
+## 5. KO simultáneos y desempates
+
+Leyendas de **ambos** equipos pueden ser noqueadas en la misma fase de Empuje. Si eso provocase que los dos equipos ganasen a la vez, aplica los siguientes criterios **en orden**, deteniéndote en el primero que resuelva el empate:
+
+| Orden | Criterio de desempate                                                           | Gana...                                    |
+| ----- | ------------------------------------------------------------------------------- | ------------------------------------------ |
+| 1.º   | Número de KO sufridos **en esa ronda**                                          | El equipo que haya sufrido **menos** KO.   |
+| 2.º   | Distancia a la que se ha empujado a un rival **más allá** del borde en esa ronda | El equipo que haya empujado **más lejos**. |
+| —     | Ambos criterios empatados                                                       | La partida termina en **empate**.          |
+
+***
+
+## 6. Ejemplo de resolución
+
+**Situación (partida 2v2).** El equipo Azul tiene 1 Stock; el equipo Rojo, 2. Al terminar la ronda, Alysia (Azul) tiene 2 fichas de Empuje hacia el borde izquierdo y está a 1 casilla de ese borde. Fitz (Rojo) tiene 1 ficha de Empuje hacia el borde derecho y está justo a 1 casilla del borde.
+
+| Paso | Acción                                                     | Resultado                                                                       |
+| ---- | ---------------------------------------------------------- | ------------------------------------------------------------------------------- |
+| 1    | **Empujar:** Alysia se desplaza 2 casillas; Fitz, 1.       | Alysia queda 1 casilla **pasado** el borde; Fitz, **sobre** el borde.           |
+| 2    | **Agarrarse al borde:** solo aplica a Fitz.                | Fitz gira hacia el centro y avanza 1. **Sobrevive.**                            |
+| 3    | **Knockout:** Alysia ha rebasado el borde.                 | Alysia es **noqueada**.                                                          |
+| 4    | **Consecuencia:** el equipo Azul tiene 1 Stock.            | Retira 1 Stock (queda a 0). Alysia vuelve al Portal azul con su Fatiga intacta. |
+
+El siguiente KO que sufra el equipo Azul dará la victoria al equipo Rojo, porque Azul ya está a 0 Stocks.
+
+***
+
+## 7. La variante Free-for-all
+
+En [Free-for-all variant](free-for-all-variant.md) cada jugador es su propio equipo y el objetivo cambia: **el primero en anotar 2 KO gana**. Estas son las diferencias que afectan a este capítulo:
+
+| Regla estándar                                     | Regla en Free-for-all                                                                                                    |
+| -------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| Los Stocks protegen al equipo.                     | **No se reparten Stocks.** Las fichas de Stock se usan para **contar los KO anotados** por cada jugador.                  |
+| Al ser noqueado gastas un Stock.                   | Vuelves siempre al Portal central **con 2 de Fatiga**. Nunca eres eliminado.                                              |
+| El KO no se atribuye a nadie en concreto.          | El KO lo anota **la última Leyenda que colocó una ficha de Empuje** en la dirección del empuje.                           |
+| Gana quien agote los Stocks rivales.               | Gana quien anote **2 KO**.                                                                                                |
+| Desempates: menos KO sufridos → empuje más lejano. | Se comprueba **antes** un criterio nuevo: gana quien haya anotado **más KO en esa ronda**.                                |
+| —                                                  | Una Leyenda **sin fichas de Empuje** que fuese a ser noqueada vuelve al Portal (elige encaramiento y conserva su Fatiga). |
+
+***
+
 ***
