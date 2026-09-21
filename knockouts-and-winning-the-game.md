@@ -122,4 +122,23 @@ En [Free-for-all variant](free-for-all-variant.md) cada jugador es su propio equ
 
 ***
 
+## 8. Errores frecuentes
+
+| Error                                                      | Regla correcta                                                                      |
+| ---------------------------------------------------------- | ----------------------------------------------------------------------------------- |
+| Creer que quedar **sobre** el borde es un KO.              | Estar sobre el borde activa «Agarrarse al borde»: giras hacia el centro y avanzas 1. |
+| Resolver el Empuje al final de la **secuencia**.           | El Empuje se resuelve al final de **cada ronda**.                                    |
+| Reiniciar la Fatiga al volver por el Portal.               | La Fatiga **se conserva**; solo cambian la posición y el encaramiento.               |
+| Sumar fichas de Empuje opuestas.                           | Se **cancelan** una a una antes de mover.                                            |
+| Terminar la ronda tras un KO que deja al rival a 0 Stocks. | Perder el último Stock no es la derrota: la derrota llega con el **siguiente** KO.   |
+| Olvidar comprobar los KO simultáneos.                      | Si ambos equipos ganarían a la vez, aplica los desempates de la sección 5.           |
+
 ***
+
+## 9. Referencias cruzadas
+
+* [Push](push.md) — mecánica completa de las fichas de Empuje.
+* [Gameplay](gameplay.md) — estructura de secuencias y rondas.
+* [Actions](actions.md) — cómo el *Strike*, la Fuerza y el Bloqueo generan fichas de Empuje.
+* [Free-for-all variant](free-for-all-variant.md) — reglas completas de la variante.
+* [FAQs](faqs.md) — aclaraciones sobre Fatiga, bordes y resolución de empujes.
